@@ -29,7 +29,8 @@ function isJavaScriptFile(tuiKida){
 }
 
 const tuikida = isJavaScriptFile('amiJava.js');
-console.log(tuikida);
+// console.log(tuikida);
+
 
 //-----Answer to the probelem no ((3))-----//
 
@@ -48,7 +49,7 @@ function oilPrice(diesel, petrol, octane){
 }
 
 const totalOilPrice = oilPrice(1, 0, 4);
-console.log(totalOilPrice);
+// console.log(totalOilPrice);
 
 //-----Answer to the probelem no ((4))-----//
 
@@ -62,7 +63,7 @@ function publicBusFare(peoples) {
     return publicBusCost;
 }
 const result = publicBusFare(3484);
-console.log(result);
+// console.log(result);
 
 //-----Answer to the probelem no ((5))-----//
 
@@ -84,6 +85,6 @@ const myFriend = {name: 'akash', friend: 'kotha'};
 const yourFriend = {name:'kotha', friend:'akash'};
 const isTrueBestFriend = isBestFriend (myFriend, yourFriend);
 
-console.log(isTrueBestFriend);
+// console.log(isTrueBestFriend);
 
 
